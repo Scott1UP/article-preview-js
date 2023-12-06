@@ -1,0 +1,107 @@
+
+/* Global styles */
+:root {
+    --v-dk-grey-blue: hsl(217, 19%, 35%);
+    --desat-drk-blue: hsl(214, 17%, 51%);
+    --gray-blue: hsl(212, 23%, 69%);
+    --lt-gray-blue: hsl(210, 46%, 95%);
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote dl, dd {
+    margin: 0;
+}
+
+body {
+    margin: 1.5rem;
+    background-color: var(--lt-gray-blue);
+    font-family: 'Manrope';
+}
+
+/* Component-level styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.drawers {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 2.25rem 2rem 1.25rem 2rem;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--v-dk-grey-blue);
+}
+
+
+.body {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--desat-drk-blue);
+    line-height: 1.6;
+    margin-bottom: 2rem;    
+}
+
+.author-and-share {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.author-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--v-dk-grey-blue);
+}
+
+.date {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--gray-blue);
+}
+
+.name-and-date {
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+}
+
+.profile {
+    width: 2.5rem;
+    border-radius: 4rem;
+}
+
+.share-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--lt-gray-blue);
+}
+
+
