@@ -7,7 +7,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Manrope:500,700" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
@@ -24,7 +23,7 @@
           </p>
         </div>    
 
-        <div class="author-and-share">
+        <div class="author-and-share" id="authorDetails">
           <div class="author-details">
             <img src="./images/avatar-michelle.jpg" class="profile" alt="Profile photo for Michelle Appleton">
             <div class="name-and-date">
@@ -32,13 +31,13 @@
               <p class="date">28 Jun 2020</p>
             </div>
           </div>
-          <div class="share-toggle">
-            <img src="./images/icon-share.svg" class="share" alt="Share icon to toggle share options.">
+          <div class="share-toggle" onclick="toggle()">
+            <img src="./images/icon-share.svg" alt="Share icon to toggle share options.">
           </div>
         </div>
       </div>
 
-      <div class="share-drawer">
+      <div class="share-drawer" id="shareDrawer">
         <div class="text-and-socials">
           <p class="caps-text">SHARE</p>
           <div class="social-icons">
@@ -48,12 +47,13 @@
           </div>
         </div>
         
-        <div class="share-toggle">
+        <div class="share-toggle open" onclick="toggle()">
           <img src="./images/icon-share.svg" class="share" alt="Share icon to toggle share options.">
         </div>
       </div>
 
     </div>
   </main>
+  <script src="./script.js"></script>
 </body>
 </html>
