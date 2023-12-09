@@ -2,7 +2,7 @@ var share = document.getElementById("shareDrawer");
 var author = document.getElementById("authorDetails");
 share.style.display = "none";
 
-function toggle() {
+function toggleMobile() {
     if (share.style.display === "none") {
     share.style.display = "flex";
     author.style.display = "none";
