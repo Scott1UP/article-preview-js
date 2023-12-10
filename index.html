@@ -31,29 +31,34 @@
               <p class="date">28 Jun 2020</p>
             </div>
           </div>
-          <div class="share-toggle" onclick="toggleMobile()">
+          <div class="togg-mobile" onclick="toggleMobile()">
+            <img src="./images/icon-share.svg" alt="Share icon to toggle share options.">
+          </div>
+          <div class="togg-desktop" onclick="toggleDesktop()">
             <img src="./images/icon-share.svg" alt="Share icon to toggle share options.">
           </div>
         </div>
       </div>
       
 
-      <div class="share-drawer" id="shareDrawer">
-        <div class="text-and-socials">
-          <p class="caps-text">SHARE</p>
-          <div class="social-icons">
-            <img src="./images/icon-facebook.svg" class="icon" alt="Facebook logo.">
-            <img src="./images/icon-twitter.svg" class="icon" alt="Twitter logo.">
-            <img src="./images/icon-pinterest.svg" class="icon" alt="Pinterest logo.">
+        <div class="share-drawer" id="shareDrawer">
+          <div class="text-and-socials">
+            <p class="caps-text">SHARE</p>
+            <div class="social-icons">
+              <img src="./images/icon-facebook.svg" class="icon" alt="Facebook logo.">
+              <img src="./images/icon-twitter.svg" class="icon" alt="Twitter logo.">
+              <img src="./images/icon-pinterest.svg" class="icon" alt="Pinterest logo.">
+            </div>
+          </div>
+          <div class="togg-mobile open" onclick="toggleMobile()">
+            <img src="./images/icon-share.svg" class="share" alt="Share icon to toggle share options.">
+          </div>
+          <div class="togg-desktop open" onclick="toggleDesktop()">
+            <img src="./images/icon-share.svg" class="share" alt="Share icon to toggle share options.">
           </div>
         </div>
-        
-        <div class="share-toggle open" onclick="toggleMobile()">
-          <img src="./images/icon-share.svg" class="share" alt="Share icon to toggle share options.">
-        </div>
-      </div>
 
-    
+      
     </div>
   </main>
   <script src="./script.js"></script>

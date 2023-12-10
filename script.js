@@ -13,3 +13,12 @@ function toggleMobile() {
         share.style.display = "none";
     }
 }
+
+function toggleDesktop() {
+    if (share.style.display === "none") {
+        share.style.display = "flex";
+    }
+    else if (share.style.display === "flex") {
+        share.style.display = "none";
+    }
+}
